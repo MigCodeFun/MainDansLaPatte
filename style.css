@@ -1,0 +1,140 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ff5e62;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #ff5e62;
+}
+
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.show {
+  display: block;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #ff5e62;
+}
+
+/* Hero Section */
+.hero_section {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero_section h1 {
+  font-size: 2.5rem;
+}
+
+/* About, Adopt, Donate, Contact Sections */
+.about_section,
+.adopt_section,
+.donate_section,
+.contact_section {
+  padding: 50px 0;
+}
+
+.about_section h2,
+.adopt_section h2,
+.donate_section h2,
+.contact_section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p,
+footer ul {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Adoption Listings */
+.annonce {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.annonce:hover {
+  transform: translateY(-5px);
+}
+
+.annonce img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Donation Form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  margin-bottom: 10px;
+}
+
+.form-check {
+  margin-bottom: 15px;
+}
+
+/* Contact Button */
+.btn-contact {
+  background-color: #ff5e62;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-contact:hover {
+  background-color: #e54d51;
+}
